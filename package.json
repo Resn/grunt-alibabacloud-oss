@@ -1,23 +1,25 @@
 {
   "name": "grunt-alibabacloud-oss",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "File uploader for Alibaba Cloud (Aliyun) OSS.",
   "main": "index.js",
   "scripts": {
     "test": "node test/index.js"
   },
   "keywords": [
-	"alibaba",
+    "alibaba",
     "aliyun",
     "upload",
     "file",
-	"grunt"
+    "grunt"
   ],
   "author": "emlyn@resn.co.nz",
   "homepage": "https://github.com/Resn/grunt-alibabacloud-oss",
   "repository": "github:Resn/grunt-alibabacloud-oss",
   "license": "MIT",
-  "engines" : { "node" : ">6.4" },
+  "engines": {
+    "node": ">6.4"
+  },
   "dependencies": {
     "ali-oss": "^4.8.0",
     "kefir": "^3.7.0"
@@ -26,6 +28,6 @@
     "glob": "^7.1.2"
   },
   "peerDependencies": {
-	"grunt": ">=0.4.1"
+    "grunt": ">=0.4.1"
   }
 }
