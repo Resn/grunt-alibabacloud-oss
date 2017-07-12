@@ -8,7 +8,7 @@ module.exports = function( grunt ) {
 	const fs = require('fs');
 	const lib = require('../index');
 	
-	grunt.registerMultiTask("aliyun_oss","Upload files to Aliyun OSS",function() {
+	grunt.registerMultiTask("alibabacloud_oss","Upload files to Alibaba Cloud OSS",function() {
 		
 		const done = this.async();
 		const options = this.options();

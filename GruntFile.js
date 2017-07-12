@@ -6,7 +6,7 @@ module.exports = function( grunt ) {
 	const config = require('./test/config.json');
 	
 	grunt.initConfig({
-		"aliyun_oss": {
+		"alibabacloud_oss": {
 			"default": {
 				"options": Object.assign({
 					"bucket": '',
