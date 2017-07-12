@@ -1,0 +1,30 @@
+{
+  "name": "grunt-aliyun-oss",
+  "version": "1.0.0",
+  "description": "File uploader for Aliyun OSS.",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test/index.js"
+  },
+  "keywords": [
+    "aliyun",
+    "upload",
+    "file",
+	"grunt"
+  ],
+  "author": "emlyn@resn.co.nz",
+  "homepage": "https://github.com/Resn/grunt-aliyun-oss",
+  "repository": "github:Resn/grunt-aliyun-oss",
+  "license": "MIT",
+  "engines" : { "node" : ">6.4" },
+  "dependencies": {
+    "ali-oss": "^4.8.0",
+    "kefir": "^3.7.0"
+  },
+  "devDependencies": {
+    "glob": "^7.1.2"
+  },
+  "peerDependencies": {
+	"grunt": ">=0.4.1"
+  }
+}
