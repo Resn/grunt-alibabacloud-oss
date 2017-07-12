@@ -38,11 +38,11 @@ Task targets, files and options may be specified according to the grunt [Configu
 ### Usage Examples
 
 ```js
-{ "aliyun_oss": {
+{ "alibabacloud_oss": {
 	"options": {
 		"region": 'oss-cn-shanghai',
-		"accessKeyId": "aliyun access key",
-		"accessKeySecret": "aliyun access secret"
+		"accessKeyId": "XXXXXXXXXXXXX",
+		"accessKeySecret": "XXXXXXXXXXX"
 	},
 	"main": {
 		"files": [
