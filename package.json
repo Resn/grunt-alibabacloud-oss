@@ -1,6 +1,6 @@
 {
   "name": "grunt-alibabacloud-oss",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "File uploader for Alibaba Cloud (Aliyun) OSS.",
   "main": "index.js",
   "scripts": {
