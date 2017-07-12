@@ -21,11 +21,7 @@ _Run this task with the `grunt aliyun_oss` command._
 
 Task targets, files and options may be specified according to the grunt [Configuring tasks](http://gruntjs.com/configuring-tasks) guide.
 
-### options
-
-Create a Bucket store instance.
-
-options:
+### Options
 
 - accessKeyId {String} access key you create on aliyun console website
 - accessKeySecret {String} access secret you create
