@@ -40,7 +40,8 @@ Task targets, files and options may be specified according to the grunt [Configu
 ```js
 { "alibabacloud_oss": {
 	"options": {
-		"region": 'oss-cn-shanghai',
+		"bucket": "my-awesome-bucket",
+		"region": "oss-cn-shanghai",
 		"accessKeyId": "XXXXXXXXXXXXX",
 		"accessKeySecret": "XXXXXXXXXXX"
 	},
